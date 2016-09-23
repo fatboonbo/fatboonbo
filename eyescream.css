@@ -378,7 +378,7 @@ table.v4acp tr.v4acp_head td.v4accent {
   transition:.4s;
   font-family: 'Futura LT Book', 'Futura ICG', Futura, 'Century Gothic', Muli, arial, 'Microsoft JhengHei', sans-serif;
 }
-.lcat li a:hover {
+.lcat li a:hover,.lev1 li span {
   color: #b59893;
 }
 .lcat .cnt {
