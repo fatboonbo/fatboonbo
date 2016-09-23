@@ -359,10 +359,9 @@ table.v4midBox {
 .v4title h2 {
   color:#444;
   font-size: 18px;
-  /* font-family: Muli, arial; */
   text-transform: uppercase;
   font-weight: normal;
-  font-family: inherit;
+  font-family: Futura, 'Century Gothic', Lato, arial, 'Microsoft JhengHei', sans-serif;
 }
 table.v4acp tr.v4acp_head td.v4title {
   background:none;
