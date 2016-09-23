@@ -75,8 +75,10 @@ html, body {
   font-family: 'Muli', arial, 'Microsoft JhengHei', sans-serif;
 }
 a {
-  color:#4C4C4E;
   text-decoration: none;
+}
+header.wrapper a {
+  color: #4C4C4E !important;  
 }
 .wrapper {
   width:100%;
@@ -108,11 +110,12 @@ nav ul > li {
   text-transform: uppercase;
 }
 nav ul:hover > li a  {
-  color:rgba(101, 101, 101, .4);
+  color:rgba(101, 101, 101, .4) !important;
+  text-decoration:none !important;
 }
 nav ul:hover > li:hover a ,
 nav ul:hover > li:before {
-  color:rgba(68, 68, 68, 1);
+  color:rgba(68, 68, 68, 1) !important;
 }
 header.wrapper {
   
