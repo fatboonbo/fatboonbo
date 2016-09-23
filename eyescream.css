@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*----------------reset css -------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+  outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  outline: 0;
+}
+html, body {
+  font-family: 'Muli', arial, 'Microsoft JhengHei', sans-serif;
+}
+a {
+  color:#4C4C4E;
+  text-decoration: none;
+}
+.wrapper {
+  width:100%;
+  max-width:1000px;
+  display:block;
+  position: relative;
+  margin: 0 auto;
+}
+nav ul {
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+nav ul:after {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  content: '';
+}
+nav ul > li {
+  vertical-align: top;
+  display: inline-block;
+  zoom: 1;
+  position: relative;
+  padding-left: .3em;
+  transition: .4s;
+  text-transform: uppercase;
+}
+nav ul:hover > li a  {
+  color:rgba(101, 101, 101, .4);
+}
+nav ul:hover > li:hover a ,
+nav ul:hover > li:before {
+  color:rgba(68, 68, 68, 1);
+}
+header.wrapper {
+  
+overflow: hidden;
+}
+nav#menu_ebay {
+  border-top: 2px solid #EBEAE8;
+  border-bottom: 2px solid #EBEAE8;
+  width:100%;
+  height: 48px;
+  line-height: 48px;
+  float: left;
+  clear: both;
+  margin-top: .5em;
+}
+nav#menu_ebay ul,
+nav#site_link_ebay2 ul {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  max-width: 660px;
+}
+nav#site_link_ebay2 ul {
+  max-width:900px;
+}
+header.wrapper nav a:hover {
+  color:#333;
+}
+nav#menu_ebay a,
+nav#site_link_ebay2 a {
+  /* color: #666; */
+  font-size: 12px;
+  letter-spacing: .1em;
+  /* transform: scale(0.89); 
+  -webkit-transform: scale(0.89); 
+  -ms-transform: scale(0.89);*/
+  display: block;
+  font-weight:normal;
+  transition: .4s;
+}
+nav#site_link_ebay2 a {
+  transform: scale(0.86);
+  -webkit-transform: scale(0.86);
+  -ms-transform: scale(0.86);
+  position: relative;
+}
+nav#site_link_ebay {
+  float:right;
+  height: 15px;
+  line-height: 15px;
+  margin-top: .8em;
+}
+nav#site_link_ebay ul {
+  width:100%;
+  max-width: 680px;
+  display: block;
+}
+nav#site_link_ebay a {
+  /* color: #333; */
+  font-family: arial;
+  font-size: 12px;
+  letter-spacing: .1em;
+  word-spacing: .15em;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  transition: .4s;
+}
+nav#site_link_ebay li:before {
+  content:'|';
+  position: absolute;
+  font-size: 12px;
+  display: inline-block;
+  transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  left: -.2em;
+  opacity:1.0;
+}
+nav#site_link_ebay li:last-child:after {
+  content:'|';
+  position: absolute;
+  font-size: 12px;
+  display: inline-block;
+  transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  right: -.5em;
+  top: 0;
+  opacity:1.0;
+}
+div.logo {
+  display:block;
+  float:left;
+}
+div.logo a {
+  width: 310px;
+  display: block;
+  margin: 0 auto;
+}
+header h1 {
+  width: 310px;
+  height: 70px;
+  padding: 0;
+  background-image: url(images/logo-ebay.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  font-size:0;
+  background-position: -10px 0;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+  transition:.4s;
+  display: block;
+  margin: 0;
+}
+section#search {
+  display: block;
+  float: right;
+  background: #eaeaea;
+  width:250px;
+  height:25px;
+}
+#site_link_ebay2 {
+  height: 33px;
+  line-height: 33px;
+  margin: 1em 0;
+}
+#site_link_ebay2 li {
+  background-image:url(images/icon-set.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-left: 2em;
+}
+#site_link_ebay2 li:nth-child(2) {
+  background-position:0 -48px;
+  padding-left: 2.5em;
+}
+#site_link_ebay2 li:nth-child(3) {
+  background-position:0 -96px;
+}
+#site_link_ebay2 li:nth-child(4) {
+  background-position:0 -142px;
+  padding-left: 2.5em;
+}
+#site_link_ebay2 li:nth-child(5) {
+  background-position:0 -190px;
+  padding-left: 1.5em;
+}
+#site_link_ebay2 li a:after {
+  content: '';
+  background: #E8DFDA;
+  display: block;
+  height: .2em;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border-radius:100%;
+  transition: .4s;
+}
+#site_link_ebay2 li a:hover:after {
+  background: #c3b2a9;  
+}
+hr {
+  background: #E8DFDA;
+  width:100%;
+  height: 22px;
+  border:0;
+}
