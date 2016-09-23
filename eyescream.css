@@ -213,7 +213,7 @@ nav#site_link_ebay li:last-child:after {
   transform: scale(0.85);
   -webkit-transform: scale(0.85);
   -ms-transform: scale(0.85);
-  right: -.5em;
+  right: -.1em;
   top: 0;
   opacity:1.0;
 }
@@ -241,13 +241,6 @@ header h1 {
   transition:.4s;
   display: block;
   margin: 0;
-}
-section#search {
-  display: block;
-  float: right;
-  background: #eaeaea;
-  width:250px;
-  height:25px;
 }
 #site_link_ebay2 {
   height: 33px;
@@ -302,4 +295,38 @@ table.v4acpcont {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+}
+section#search {
+  display: block;
+  float: right;
+  width:250px;
+  height:28px;
+  text-align:right;
+  margin-top: .5em;
+}
+.search_input,
+.search_btn {
+  display:inline-block;
+}
+.search_input {
+  outline:0;
+  border:0;
+  border-bottom:1px solid #c4c4c4;
+  vertical-align: bottom;
+  height: 28px;
+  padding-bottom: 0;
+  padding-top: .8em;
+}
+.search_btn {
+  -webkit-appearance:none;
+  background-image:url(images/icon-set.png);
+  background-position:0 -240px;
+}
+.search_btn,.search_btn input[type="image"] {
+  width:20px;
+  height:20px;
+  outline:0;
+  border:0;
+  font-size:0;
+  vertical-align: middle;
 }
