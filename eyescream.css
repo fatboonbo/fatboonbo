@@ -75,7 +75,7 @@ table {
   outline: 0;
 }
 html, body {
-  font-family: 'Futura LT Book', 'Futura ICG', Futura, 'Century Gothic', Lato, arial, 'Microsoft JhengHei', sans-serif;
+  font-family: 'Futura LT Book', 'Futura ICG', Futura, 'Century Gothic', Muli, arial, 'Microsoft JhengHei', sans-serif;
   width: 100%;
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -359,14 +359,36 @@ table.v4midBox {
 }
 .v4title h2 {
   color:#444;
-  font-size: 18px;
+  font-size: 19px;
   text-transform: uppercase;
   font-weight: normal;
-  font-family: 'Futura LT Book', 'Futura ICG', Futura, 'Century Gothic', Lato, arial, 'Microsoft JhengHei', sans-serif;
+  font-family: 'Futura LT Book', 'Futura ICG', Futura, 'Century Gothic', Muli, arial, 'Microsoft JhengHei', sans-serif;
 }
 table.v4acp tr.v4acp_head td.v4title {
   background:none;
 }
 table.v4acp tr.v4acp_head td.v4accent {
   width:0;
+}
+.lcat li a {
+  font-size: 16px;
+  text-decoration:none;
+  color:#D4C9C7;
+  text-transform: uppercase;
+  font-weight: normal;
+  transition:.4s;
+  font-family: 'Futura LT Book', 'Futura ICG', Futura, 'Century Gothic', Muli, arial, 'Microsoft JhengHei', sans-serif;
+}
+.lcat li a:hover {
+  color: #b59893;
+}
+.lcat .cnt {
+  font-weight:normal;
+  color:#69BABB;
+  letter-spacing:0;
+  font-size:12px;
+}
+.lcat .ttl {display:none;}
+td#LeftPanel {
+  border-right:1px dashed #ccc;
 }
