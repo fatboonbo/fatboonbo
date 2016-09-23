@@ -75,7 +75,7 @@ table {
   outline: 0;
 }
 html, body {
-  font-family: Futura, 'Century Gothic', Lato, arial, 'Microsoft JhengHei', sans-serif;
+  font-family: 'Futura IGC', Futura, 'Century Gothic', Lato, arial, 'Microsoft JhengHei', sans-serif;
   width: 100%;
   position: relative;
 }
@@ -361,7 +361,7 @@ table.v4midBox {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: normal;
-  font-family: Futura, 'Century Gothic', Lato, arial, 'Microsoft JhengHei', sans-serif;
+  font-family: 'Futura IGC', Futura, 'Century Gothic', Lato, arial, 'Microsoft JhengHei', sans-serif;
 }
 table.v4acp tr.v4acp_head td.v4title {
   background:none;
