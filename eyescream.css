@@ -65,6 +65,7 @@ table {
   /* margin: 0 auto; */
 }
 
+
 *,
 *:before,
 *:after {
@@ -301,9 +302,17 @@ section#search {
   display: block;
   float: right;
   width:250px;
-  height:28px;
   text-align:right;
   margin-top: .5em;
+}
+section#search table {
+  float:right;
+}
+
+table.v4stw table td {
+  position:relative;
+  vertical-align:bottom;
+  padding-left: 8px;
 }
 input.v4sbox,
 #search input[type="submit"] {
@@ -319,6 +328,7 @@ input.v4sbox {
   padding-top: .6em;
   font-family: arial, "Microsoft JhengHei";
   word-spacing: .1em;
+  width: 150px;
 }
 #search input[type="submit"] {
   -webkit-appearance:none;
@@ -349,6 +359,12 @@ input.v4sbox::-moz-placeholder {
 
 input.v4sbox:-ms-input-placeholder {
   color: #ccc;
+}
+#search input[type="checkbox"],
+#search label {
+  font-size:12px;
+  margin-top:8px;
+  display:inline-block;
 }
 /* left side table menu */
 
