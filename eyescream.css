@@ -305,11 +305,11 @@ section#search {
   text-align:right;
   margin-top: .5em;
 }
-.search_input,
-.search_btn {
+input.v4sbox,
+#search input[type="submit"] {
   display:inline-block;
 }
-.search_input {
+input.v4sbox {
   outline:0;
   border:0;
   border-bottom:1px solid #c4c4c4;
@@ -320,12 +320,12 @@ section#search {
   font-family: arial, "Microsoft JhengHei";
   word-spacing: .1em;
 }
-.search_btn {
+#search input[type="submit"] {
   -webkit-appearance:none;
   background-image:url(images/icon-set.png);
   background-position:0 -240px;
 }
-.search_btn,.search_btn input[type="image"] {
+.search_btn,#search input[type="submit"] {
   width:20px;
   height:20px;
   outline:0;
@@ -335,19 +335,19 @@ section#search {
   cursor: pointer;
 }
 
-.search_input::-webkit-input-placeholder {
+input.v4sbox::-webkit-input-placeholder {
   color: #ccc;
 }
 
-.search_input:-moz-placeholder {
+input.v4sbox:-moz-placeholder {
   color: #ccc;
 }
 
-.search_input::-moz-placeholder {
+input.v4sbox::-moz-placeholder {
   color: #ccc;
 }
 
-.search_input:-ms-input-placeholder {
+input.v4sbox:-ms-input-placeholder {
   color: #ccc;
 }
 /* left side table menu */
