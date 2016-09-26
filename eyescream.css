@@ -430,3 +430,35 @@ table.v4acp tr.v4acp_head td.v4accent {
 td#LeftPanel {
   border-right:1px dashed #ccc;
 }
+
+
+.slideshowContainerStatic {
+    background-color: pink;
+    position: relative;
+    overflow:hidden;
+}
+
+.slideshowContainer {
+    width: 450px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshowObjectStatic {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    display:inline;
+    float:left;
+}
+
+.slideshowObject {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
