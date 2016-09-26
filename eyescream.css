@@ -795,10 +795,12 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 }
 
 .csslider1 > .cs_arrowprev > label span:after {
-  content: '\e800';
+  content: '\f053';
+ font-family:FontAwesome;
 }
 .csslider1 > .cs_arrownext > label span:after {
-  content: '\e801';
+  content: '\f054';
+ font-family:FontAwesome;
 }
 
 .csslider1 > .cs_arrowprev:hover > label,
