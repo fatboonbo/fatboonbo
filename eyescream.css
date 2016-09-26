@@ -250,7 +250,7 @@ header h1 {
 #site_link_ebay2 {
   height: 33px;
   line-height: 33px;
-  margin: 1em 0;
+  margin: 3em 0 1em;
 }
 #site_link_ebay2 li {
   background-image:url(images/icon-set.png);
@@ -423,6 +423,13 @@ table.v4acp tr.v4acp_head td.v4accent {
   font-size:13px;
   font-family:Muli;
 }
+.lev2 li span {
+  font-size:13px;
+  color: #69BABB !important;
+}
+.lev2 li a + span {
+  opacity:.5;
+}
 .lcat .lev2 li span.cnt {
   color:#999;
   font-size:12px;
@@ -439,6 +446,7 @@ td#LeftPanel {
   position: relative;
   max-width: 1000px;
   width: 100%;
+  margin-top: 1em;
 }
 .csslider1,
 .csslider1 *,
@@ -600,7 +608,7 @@ td#LeftPanel {
 
 /* ------------- General Bullets ------------- */
 .csslider1 > .cs_bullets {
-  position: absolute;
+  position: relative;
   left: 0;
   width: 100%;
   z-index: 6;
@@ -755,7 +763,7 @@ td#LeftPanel {
   margin-top: -28px;
   margin-left: -28px;
 
-  background-color: #CBECFD;
+  background-color: rgba(255, 255, 255, .5);
 
   border-radius: 50%;
 }
@@ -797,15 +805,19 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 .csslider1 > .cs_arrowprev > label span:after {
   content: '\f053';
  font-family:FontAwesome;
+ color:#555;
+ font-size:14px;
 }
 .csslider1 > .cs_arrownext > label span:after {
   content: '\f054';
  font-family:FontAwesome;
+ color:#555;
+ font-size:14px;
 }
 
 .csslider1 > .cs_arrowprev:hover > label,
 .csslider1 > .cs_arrownext:hover > label {
-  background-color: #e5f6fe;
+  background-color: rgba(255, 255, 255, .5);
 }
 
 .csslider1 > .cs_arrownext:hover > label span {
@@ -881,14 +893,14 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 
 /* ------------- Template Bullets ------------- */
 .csslider1 > .cs_bullets {
-  bottom: 5px;
+  top: 20px;
   margin-bottom: 5px;
 }
 .csslider1 > .cs_bullets > label {
-  border-radius: 50%;
+  border-radius: 0;
   margin: 0 5px;
-  padding: 9px;
-  background: #CBECFD;
+  padding: 4px;
+  background: #C5C0C4;
 }
 
 
@@ -896,13 +908,14 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 
 .csslider1 > .cs_bullets > label > .cs_point {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -2px;
-  margin-top: -2px;
+  left: 0;
+  top: 0;
+  /* margin-left: -2px; */
+  /* margin-top: -2px; */
   background: transparent;
-  border-radius: 50%;
-  padding: 2px;
+  border-radius: 0;
+  padding: 4px;
+  width: auto;
 }
 
 .csslider1 > .cs_bullets > label:hover > .cs_point,
@@ -911,18 +924,20 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_arrownext > label span:after {
 .csslider1 > #cs_pause1_0:checked ~ .cs_bullets > label.num0 > .cs_point,
 .csslider1 > #cs_slide1_1:checked ~ .cs_bullets > label.num1 > .cs_point,
 .csslider1 > #cs_pause1_1:checked ~ .cs_bullets > label.num1 > .cs_point {
-  background: #3A4A5A;
+  background: #E7DED7;
+  /* width: 100%; */
+  /* height: 100%; */
 }
 
 
 
 
 @keyframes bullet1 {
-  0%, 49.99%  { background: #3A4A5A; }
+  0%, 49.99%  { background: #E7DED7; }
   50%, 100% { background: transparent; }
 }
 @-webkit-keyframes bullet1 {
-  0%, 49.99%  { background: #3A4A5A; }
+  0%, 49.99%  { background: #E7DED7; }
   50%, 100% { background: transparent; }
 }
 
