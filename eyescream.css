@@ -1066,3 +1066,35 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
     left: 125%;
   }
 }
+.r3_hm, .r3_c, .r3_s {
+    border: 0;
+}
+
+.r3_t, .r3_t b, .r3_bl, .r3_bl b {
+    background: none;
+}
+
+.r3_t i, .r3_bl i {
+    border: 0;
+}
+
+table.cmpb.nol {
+    font-family: arial;
+    font-size: 12px;
+}
+
+body a:link, body .g-novisited a:visited {
+    color: #555;
+}
+
+a:visited {
+    color: #555;
+}
+
+a:active, a:link {
+    color: #555;
+}
+
+.ttl a:hover {
+    color: #333;
+}
