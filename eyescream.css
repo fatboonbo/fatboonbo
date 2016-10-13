@@ -1083,15 +1083,15 @@ table.cmpb.nol {
     font-size: 12px;
 }
 
-body a:link, body .g-novisited a:visited {
+.r3_c a:link, body .g-novisited a:visited {
     color: #555;
 }
 
-a:visited {
+.r3_c a:visited {
     color: #555;
 }
 
-a:active, a:link {
+.r3_c a:active, .r3_c a:link {
     color: #555;
 }
 
