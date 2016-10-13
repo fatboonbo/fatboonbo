@@ -413,9 +413,13 @@ table.v4acp tr.v4acp_head td.v4accent {
 }
 .lcat .cnt {
   font-weight:normal;
-  color:#69BABB;
+  color: #69BABB!important;
   letter-spacing:0;
   font-size:12px;
+}
+.lcat li a:hover + span.cnt {
+  color: #69BABB;
+  opacity: 1;
 }
 .nav_left li ul {
   padding: 0 0 0 20px;
@@ -447,9 +451,9 @@ table.v4acp tr.v4acp_head td.v4accent {
   font-size:13px;
   font-family:Muli;
 }
-.lev2 li span {
+.lev2 li span:first-child {
   font-size:13px;
-  color: #69BABB !important;
+  color: #b59893 !important;
 }
 .lev2 li a + span {
   opacity:.5;
