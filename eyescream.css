@@ -1248,6 +1248,7 @@ td.details {
 	height: 26px;
 	line-height: 26px;
 	text-decoration: none;
+	color: #FF8000;
 }
 
 span.pdmt .label
@@ -1264,7 +1265,7 @@ div.clr.time2
 	color: #5b5b5b;
 	font-size: 12px;
 	width: 100%;
-	margin: 1em 0 .5em;
+	margin: .6em 0 1em;
 }
 table.gallery table.fixed div.time2 {
   padding-right:0;
