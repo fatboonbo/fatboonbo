@@ -1467,3 +1467,31 @@ table.pgbc {
 #v4-16 > div:first-child {
   margin:0 -1px;
 }
+.stBadge {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.stBadge-accent td {
+    background:#69BABB!important;
+}
+
+.whiter-rcp {
+    border-top: 0;
+    font-family: Roboto, arial;
+    font-size: 13px;
+}
+.whiter-rcp a,
+.whiter-rcp a:hover,
+.whiter-rcp a:link {
+    color:#7A5E4C;
+}
+
+.stBadge-text {
+    font-weight: normal;
+}
+
+span.mbg-nw {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .08em;
+}
