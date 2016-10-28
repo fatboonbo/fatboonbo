@@ -1202,6 +1202,8 @@ table.gallery div.ttl {
   padding:1em;
   line-height: 16px;
   height: 65px;
+  font-size: 14px;
+  font-family: Roboto;
 }
 .olp-bl div {
     height: 11px;
@@ -1214,4 +1216,7 @@ table.gallery div.ttl {
 
 a.pll.tpr {
     display: none;
+}
+td.details {
+    font-family: Roboto, arial;
 }
