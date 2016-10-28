@@ -1150,6 +1150,11 @@ div.fpcc {
     border-top: 0;
     background-color: #fff;
     font-size: 12px;
+    margin-left:-1px;
+    margin-right:-1px;
+}
+.li {
+  border-color:#F4F0ED;
 }
 div.bpmsg {
   display:none;
@@ -1438,7 +1443,7 @@ td.prices.g-b {
 table.pgbc {
     height: 40px;
     /* border-top: 1px solid #c6c6c6; */
-    background-color: #E8DFDA;
+    background-color: #F4F0ED;
     /* border-bottom: 1px solid #c6c6c6; */
     color: #685043;
     font-size: 14px;
@@ -1460,7 +1465,7 @@ table.pgbc {
 .r3_cm {
     padding: 0 !important;
 }
-#v4-16 {
+.rs_box {
     border: 1px solid #F4F0ED;
     border-top:0;
 }
