@@ -1200,6 +1200,8 @@ span.pdmt .cur > img {
 }
 table.gallery div.ttl {
   padding:1em;
+  line-height: 16px;
+  height: 65px;
 }
 .olp-bl div {
     height: 11px;
@@ -1208,4 +1210,8 @@ table.gallery div.ttl {
     margin: 0;
     width: 100%;
     padding: 1px 5px 0 0;
+}
+
+a.pll.tpr {
+    display: none;
 }
