@@ -1157,7 +1157,7 @@ div.bpmsg {
     font-family: Arial;
     font-weight: bold;
     color: #69BABB!important;
-    /* background-color: #fff; */
+    background-color: transparent;
     white-space: nowrap;
     cursor: default;
     margin: 0;
@@ -1174,6 +1174,22 @@ span.pdmt .cur {
     border: 1px solid #EDEDED;
     border-radius: 8px;
     padding: .3em;
+    position: relative;
+    padding-right:2em;
+}
+span.pdmt .cur:after {
+  content:'';
+  width: 0; 
+  height: 0; 
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position:absolute;
+  border-top: 5px solid #7A5E4C;
+  top:.7em;
+  right:.6em;
+}
+span.pdmt .cur > img {
+  display:none;
 }
 .cmsg {
   display:none;
@@ -1181,4 +1197,15 @@ span.pdmt .cur {
 .cmpBr {
   border:0;
   background:#fff;
+}
+table.gallery div.ttl {
+  padding:1em;
+}
+.olp-bl div {
+    height: 11px;
+}
+.ml-pm .olp-cnt {
+    /* margin: 0 0 -5px -5px; */
+    width: 100%;
+    padding: 1px 5px 0 0;
 }
