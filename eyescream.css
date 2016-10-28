@@ -1375,3 +1375,10 @@ span.bids {
 span.label {
     font-size: 12px;
 }
+.grid td.left {
+  border:0;
+}
+div.itemseparator {
+  margin-bottom:1.5em;
+  border-color:#eaeaea;
+}
