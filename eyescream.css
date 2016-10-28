@@ -1088,6 +1088,7 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
 table.cmpb.nol {
     font-family: arial;
     font-size: 12px;
+    color: #aaa;
 }
 
 .r3_c a:link, .r3_c .g-novisited a:visited {
@@ -1382,4 +1383,87 @@ span.label {
 div.itemseparator {
   margin-bottom:1.5em;
   border-color:#eaeaea;
+}
+div.v4sem {
+  font-family:arial;
+  font-size:13px;
+  word-spacing:.1em;
+}
+div.cmpb {
+    background-color: transparent !important;
+    background-repeat: repeat !important;
+    padding: 5px 0;
+    margin-bottom: 0px !important;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none !important;
+    border-right-style: none;
+    border-bottom-style: none !important;
+    border-left-style: none;
+}
+table.nol td.picture {
+    width: 140px !important;
+    text-align: center;
+    color: #aaa;
+    font-weight: normal;
+    word-spacing: .2em;
+    /* letter-spacing: .1em; */
+}
+#CentralArea table.nol td.picture a {
+  font-size:12px!important;
+  font-weight:bold!important;
+  letter-spacing: 0;
+  margin: 0 .2em;
+  color: #666;
+}
+.cmpb td.details {
+  font-family:arial;
+}
+.cmpb td.prices {
+    text-align: center !important;
+    width: 80px !important;
+}
+.li td.rt {
+    padding-left: 5px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 13px;
+    vertical-align: middle;
+}
+td.prices.g-b {
+    vertical-align: middle;
+}
+table.pgbc {
+    height: 40px;
+    /* border-top: 1px solid #c6c6c6; */
+    background-color: #E8DFDA;
+    /* border-bottom: 1px solid #c6c6c6; */
+    color: #685043;
+    font-size: 14px;
+}
+#CentralArea td.r3_c {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-image: none;
+    color: #999;
+    border-bottom: none;
+    border-top:0;
+}
+.r3_cm {
+    padding: 0 !important;
+}
+#v4-16 {
+    border: 1px solid #F4F0ED;
+    border-top:0;
+}
+#v4-16 > div:first-child {
+  margin:0 -1px;
 }
