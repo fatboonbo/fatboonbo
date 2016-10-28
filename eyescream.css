@@ -1165,6 +1165,7 @@ div.bpmsg {
 }
 span.pdmt .label {
     color: #7A5E4C;
+    font-weight: normal;
 }
 span.pdmt .cur {
     cursor: pointer;
@@ -1204,6 +1205,7 @@ table.gallery div.ttl {
   height: 65px;
   font-size: 14px;
   font-family: Roboto;
+  text-align: left;
 }
 .olp-bl div {
     height: 11px;
@@ -1219,4 +1221,157 @@ a.pll.tpr {
 }
 td.details {
     font-family: Roboto, arial;
+}
+
+#CentralArea .g-b
+{
+	/* font-family: 'Lato', sans-serif; */
+	font-size: 22px;
+	color: #333;
+	font-weight: normal;
+	display: inline-block;
+	width: 99px;
+	text-align: center;
+	border: 0 none;
+	border-radius: 20px;
+	margin-top: 5px;
+	margin-right: auto;
+	/*margin-bottom: 20px;*/
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	/*background-image: url(../images/signup-btn.png);
+	background-repeat: no-repeat;
+	background-position: center top;*/
+	height: 26px;
+	line-height: 26px;
+	text-decoration: none;
+}
+
+span.pdmt .label
+{
+	/* color:#fff; */
+	/* font-family: 'Roboto', sans-serif; */
+	/* font-weight:normal; */
+	/* font-size:medium; */
+}
+/*---style of time left of product---*/
+div.clr.time2
+{
+	font-family: 'Lato', sans-serif;
+	color: #5b5b5b;
+	font-size: 12px;
+	width: 100%;
+	margin: 1em 0 .5em;
+}
+table.gallery table.fixed div.time2 {
+  padding-right:0;
+}
+
+
+/*---Style of Buy It Now image---*/
+.fixed img
+{
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	display: none;
+}
+/*---Style of Product Counts---*/
+.fpcc .countClass
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	/* color:#fff; */
+	font-size: 18px;
+}
+
+/*---product gallery box picture style---*/
+#CentralArea table.gallery td.picture
+{
+	/* padding: 30px 0; */
+	text-align: center;
+	vertical-align: middle;
+	display: -moz-grid;
+	padding: 0 !important;
+	/*border:1px solid #c6c6c6;*/
+	height:155px;
+	margin-top:0px;
+	/* width:212px; */
+}
+#CentralArea td.gallery table tr td
+{
+	display: list-item;
+	list-style: none;
+	text-align:center;
+	text-transform:lowercase;
+}
+#CentralArea table.gallery table.fixed
+{
+	margin-top: 5px;
+	width: 100%;
+	margin-bottom:15px /* bottomg for custom-text */
+	position:relative;
+}
+/*
+#CentralArea table.gallery table.fixed:after {
+  content:'shop now';
+  position:relative;
+  border:1px solid #333;
+  width:125px;
+  display:block;
+  margin:0 auto 1em;
+  height:25px;
+  text-transform:uppercase;
+  font-size:14px;
+  line-height:24px;
+}
+*/
+#CentralArea table.fixed table tr td
+{
+	display: list-item;
+	text-align: center;
+}
+.fpcc span.keywordClass
+{
+	/* font-family: Arial, Helvetica, sans-serif; */
+	/* font-weight: normal; */
+	/* color:#fff; */
+	/* font-size:medium; */
+	/* background: none; */
+	/* font-family: 'Roboto', sans-serif; */
+}
+/*---Product title style---*/
+#CentralArea td.r3_c a
+{
+	color: #606060;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: normal !important;
+	text-decoration: none;
+	line-height: 18px;
+	text-transform:capitalize;
+	/*font-size:medium !important;*/
+}
+#CentralArea td.r3_c a:hover {
+  color:#333;
+}
+.gallery .picture .image {
+    width: 140px !important;
+    padding: 0px !important;
+}
+table.gallery .mi {
+  display:none;
+}
+
+span.bids {
+    color: #ff8000;
+}
+
+span.label {
+    font-size: 12px;
 }
