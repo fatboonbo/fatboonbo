@@ -1371,7 +1371,7 @@ table.gallery .mi {
 }
 
 span.bids {
-    color: #ff8000;
+    color: #69BABB;
 }
 
 span.label {
@@ -1480,10 +1480,10 @@ table.pgbc {
     font-family: Roboto, arial;
     font-size: 13px;
 }
-.whiter-rcp a,
-.whiter-rcp a:hover,
-.whiter-rcp a:link {
-    color:#7A5E4C;
+.mbg a,
+.mbg a:hover,
+.mbg a:link {
+    color:#7A5E4C!important;
 }
 
 .stBadge-text {
@@ -1494,4 +1494,29 @@ span.mbg-nw {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .08em;
+}
+.clr.time2 span.label {
+    margin-right: .2em;
+    text-transform: capitalize;
+    letter-spacing: .08em;
+}
+
+#storercp_mide a {
+    color: #FF8000;
+}
+div#sModule {
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    color:#ccc;
+}
+div#sModule a {
+    color:#aaa;
+}
+div#sModule a:hover {
+    color:#666;
+}
+
+div#hll ul.in li span {
+    color: #eaeaea;
 }
