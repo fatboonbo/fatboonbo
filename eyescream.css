@@ -1205,7 +1205,7 @@ table.gallery div.ttl {
     height: 11px;
 }
 .ml-pm .olp-cnt {
-    /* margin: 0 0 -5px -5px; */
+    margin: 0;
     width: 100%;
     padding: 1px 5px 0 0;
 }
