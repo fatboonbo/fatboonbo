@@ -1215,7 +1215,7 @@ table.gallery div.ttl {
   height: 65px;
   font-size: 14px;
   font-family: Roboto;
-  text-align: left;
+  text-align: center;
 }
 .olp-bl div {
     height: 11px;
@@ -1532,4 +1532,27 @@ div#hll ul.in li span {
 .ttl.g-std a {
     color: #555;
     text-transform: capitalize;
+}
+.next a.enabled img,
+.prev a.disabled img {
+    display:none;
+}
+.next, .prev, .pages {
+    position:relative;
+}
+.next a.enabled:nth-child(2):after {
+    content:'\f054';
+    display:inline-block;
+    position:relative;
+    font-family: "FontAwesome" !important;
+    font-size:12px;
+}
+.prev a.disabled:nth-child(2):before {
+    content:'\f053';
+    display:inline-block;
+    position:relative;
+    font-family: "FontAwesome" !important;
+    left:-.5em;
+    font-size:12px;
+
 }
