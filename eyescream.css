@@ -132,8 +132,8 @@ nav ul:hover > li:hover a ,
   color:rgba(68, 68, 68, 1) !important;
 }
 header.wrapper {
-  
-overflow: hidden;
+  overflow: hidden;
+  margin-top: 1.8em;
 }
 nav#menu_ebay {
   border-top: 2px solid #EBEAE8;
