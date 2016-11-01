@@ -1643,6 +1643,7 @@ td#CentralArea div.dynpg {
 }
 .dynpg a.disabled, .dynpg a.disabled:hover {
   padding:0;
+  border: 0;
 }
 .dynpg a:hover:after {
   border:0;
