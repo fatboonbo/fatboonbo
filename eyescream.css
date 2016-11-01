@@ -321,7 +321,7 @@ section#search table {
 
 table.v4stw table td {
   position:relative;
-  vertical-align:bottom;
+  vertical-align: middle;
   padding-left: 0;
 }
 input.v4sbox,
