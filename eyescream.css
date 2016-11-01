@@ -1392,6 +1392,7 @@ table.gallery table.fixed div.time2 {
 }
 .dynpg .next a.enabled {
   border-bottom: 1px solid #999;
+  padding: 0;
 }
 .dynpg .next a.enabled:hover,
 .dynpg .prev a.enabled:hover {
@@ -1595,7 +1596,9 @@ div#hll ul.in li span {
     font-size:12px;
     border:0;
     top:.2em;
-
+}
+.prev a.disabled:nth-child(2):before {
+  color:#ccc;
 }
 .dynpg .prev a.enabled {
   border-bottom: 1px solid #999;
@@ -1622,6 +1625,9 @@ td#CentralArea div.dynpg {
     border-bottom: 1px solid #69BABB;
     padding-left: 4px;
 }
+.dynpg a {
+  padding-left:.3em;
+}
 .dynpg td.pages a.enabled:hover,
 .dynpg td.pages a.enabled:link,
 .dynpg td.pages a.enabled:visited,
@@ -1631,6 +1637,16 @@ td#CentralArea div.dynpg {
 .dynpg a:visited {
     color:#555;
     text-decoration:none;
+}
+.dynpg a:hover {
+  border-bottom:1px solid #555;
+}
+.dynpg a.disabled, .dynpg a.disabled:hover {
+  padding:0;
+}
+.dynpg a:hover:after {
+  border:0;
+  padding:0;
 }
 table.v4clp td ul {
     list-style-type: none;
