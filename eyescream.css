@@ -1183,7 +1183,8 @@ span.pdmt .label {
     color: #7A5E4C;
     font-weight: normal;
 }
-span.pdmt .cur {
+span.pdmt .cur,
+.ship.clearFullDiv.clr {
     cursor: pointer;
     color: #7A5E4C;
     margin-left: .4em;
@@ -1193,6 +1194,14 @@ span.pdmt .cur {
     padding: .3em;
     position: relative;
     padding-right:2em;
+}
+.ship.clearFullDiv.clr {
+  width: 62%;
+  display:block;
+  margin:0 auto;
+  font-size:12px;
+  text-align:center;
+  text-transform: capitalize;
 }
 span.pdmt .cur:after {
   content:'';
@@ -1326,6 +1335,7 @@ table.gallery table.fixed div.time2 {
 	list-style: none;
 	text-align:center;
 	text-transform:lowercase;
+	width: 100%;
 }
 #CentralArea td.gallery table tr td > span.label {
   border: 1px solid #ccc;
