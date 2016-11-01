@@ -1371,6 +1371,9 @@ table.gallery table.fixed div.time2 {
 #CentralArea td.r3_c a:hover {
   color:#333;
 }
+.dynpg .next a.enabled {
+  border-bottom:1px solid #555;
+}
 .gallery .picture .image {
     width: 140px !important;
     padding: 0px !important;
@@ -1534,25 +1537,42 @@ div#hll ul.in li span {
     text-transform: capitalize;
 }
 .next a.enabled img,
+.next a.disabled img,
+.prev a.enabled img,
 .prev a.disabled img {
     display:none;
 }
 .next, .prev, .pages {
     position:relative;
 }
-.next a.enabled:nth-child(2):after {
+.next a.enabled:nth-child(2):after,
+.next a.disabled:nth-child(2):after {
     content:'\f054';
     display:inline-block;
-    position:relative;
+    position:absolute;
     font-family: "FontAwesome" !important;
     font-size:12px;
+    border:0;
+    top:.1em;
 }
+.prev a.enabled:nth-child(2):before,
 .prev a.disabled:nth-child(2):before {
     content:'\f053';
     display:inline-block;
-    position:relative;
+    position:absolute;
     font-family: "FontAwesome" !important;
     left:-.5em;
     font-size:12px;
+    border:0;
+    top:.1em;
 
+}
+.dynpg .prev a.enabled {
+  border-bottom:1px solid #555;
+}
+.dynpg span.pipe {
+  font-size:12px;
+  position:relative;
+  top:-.2em;
+  color:#bbb;
 }
