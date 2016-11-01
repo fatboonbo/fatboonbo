@@ -1587,7 +1587,7 @@ td#CentralArea div.dynpg {
     background: #F4F0ED;
 }
 .dynpg td.pages a.disabled, .dynpg td.pages a.disabled:visited {
-    color: #69BABB;
+    color: #69BABB!important;
     font-weight: normal;
 }
 .dynpg td.pages a.enabled:hover,
