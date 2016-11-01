@@ -1377,7 +1377,7 @@ table.gallery table.fixed div.time2 {
   color:#333;
 }
 .dynpg .next a.enabled {
-  border-bottom:1px solid #555;
+  border-bottom: 1px solid #999;
 }
 .gallery .picture .image {
     width: 140px !important;
@@ -1551,6 +1551,12 @@ div#hll ul.in li span {
 .next, .prev, .pages {
     position:relative;
 }
+.pages {
+  letter-spacing:5px;
+  padding: 0 1em;
+  display: block;
+  margin-left: 1em;
+}
 .next a.enabled:nth-child(2):after,
 .next a.disabled:nth-child(2):after {
     content:'\f054';
@@ -1559,7 +1565,7 @@ div#hll ul.in li span {
     font-family: "FontAwesome" !important;
     font-size:12px;
     border:0;
-    top:.1em;
+    top:.2em;
 }
 .prev a.enabled:nth-child(2):before,
 .prev a.disabled:nth-child(2):before {
@@ -1570,23 +1576,24 @@ div#hll ul.in li span {
     left:-.5em;
     font-size:12px;
     border:0;
-    top:.1em;
+    top:.2em;
 
 }
 .dynpg .prev a.enabled {
-  border-bottom:1px solid #555;
+  border-bottom: 1px solid #999;
 }
 .dynpg span.pipe {
   font-size:12px;
   position:relative;
   top:-.2em;
-  color:#bbb;
+  color: #ccc;
+  display: inline-block;
   -webkit-transform-origin-x: 0;
   -ms-transform-origin-x: 0;
   -moz-transform-origin-x: 0;
   transform-origin: 0;
-  -webkit-transform:scale(0.58);
-  transform: scale(0.58);
+  -webkit-transform: scale(0.78);
+  transform: scale(0.78);
 }
 td#CentralArea div.dynpg {
     background: #F4F0ED;
@@ -1594,12 +1601,16 @@ td#CentralArea div.dynpg {
 .dynpg td.pages a.disabled, .dynpg td.pages a.disabled:visited {
     color: #69BABB!important;
     font-weight: normal;
+    border-bottom: 1px solid #69BABB;
+    padding-left: 4px;
 }
 .dynpg td.pages a.enabled:hover,
 .dynpg td.pages a.enabled:link,
 .dynpg td.pages a.enabled:visited,
+.dynpg a,
 .dynpg a:link,
-.dynpg a:hover {
+.dynpg a:hover,
+.dynpg a:visited {
     color:#555;
     text-decoration:none;
 }
