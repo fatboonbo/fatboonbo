@@ -470,9 +470,13 @@ table.v4acp tr.v4acp_head td.v4accent {
   font-size:12px;
 }
 .lcat .ttl {display:none;}
-td#LeftPanel,
-.nav_left {
+td#LeftPanel
+ {
   border-right:1px dashed #ccc;
+}
+#promotion-category {
+  border-left:1px dashed #ccc;
+  padding-left:15px;
 }
 
 /* slider */
