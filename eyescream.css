@@ -1651,7 +1651,7 @@ table.v4clp td ul {
     top:0em;
 }
 .oc ul li.v4f a:after {
-    content: 'List View';
+    content: 'Change View';
     font-size:14px;
     position:relative;
     left:1.8em;
