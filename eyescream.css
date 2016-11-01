@@ -1372,12 +1372,17 @@ table.gallery table.fixed div.time2 {
 	line-height: 18px;
 	text-transform:capitalize;
 	/*font-size:medium !important;*/
+	transition: .4s;
 }
 #CentralArea td.r3_c a:hover {
   color:#333;
 }
 .dynpg .next a.enabled {
   border-bottom: 1px solid #999;
+}
+.dynpg .next a.enabled:hover,
+.dynpg .prev a.enabled:hover {
+  border-color:#333;
 }
 .gallery .picture .image {
     width: 140px !important;
