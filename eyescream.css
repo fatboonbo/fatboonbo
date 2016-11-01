@@ -300,6 +300,7 @@ hr {
   height: 22px;
   border:0;
   /* margin-bottom:22px; */
+  clear: both;
 }
 td#LeftPanel > table.v4acpcont:first-child {display: none;}
 .pagecontainer > table:not(:nth-child(3)) {
