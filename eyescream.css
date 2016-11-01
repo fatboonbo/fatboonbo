@@ -1336,6 +1336,7 @@ table.gallery table.fixed div.time2 {
   background: #F6F5F5;
   border: 1px solid #EDEDED;
   border-radius: 8px;
+  text-transform: uppercase;
 }
 #CentralArea table.gallery table.fixed
 {
@@ -1629,4 +1630,38 @@ td#CentralArea div.dynpg {
 .dynpg a:visited {
     color:#555;
     text-decoration:none;
+}
+table.v4clp td ul {
+    list-style-type: none;
+    margin: 0;
+}
+.oc ul li.v4f {
+    position:relative;
+}
+.oc ul li.v4f a {
+    font-size:0;
+    color:#7A5E4C;
+    text-decoration:none;
+}
+.oc ul li.v4f a:before {
+    content: '\f0ca';
+    font-family:FontAwesome;
+    font-size:18px;
+    position:absolute;
+    top:0em;
+}
+.oc ul li.v4f a:after {
+    content: 'List View';
+    font-size:14px;
+    position:relative;
+    left:1.8em;
+    top:0;
+    font-family:Roboto;
+    letter-spacing:.1em;
+}
+table.v4acpcont:nth-child(4) {
+    display:none;
+}
+table.v4clp tr:nth-child(2) td.oc {
+    display:none;
 }
