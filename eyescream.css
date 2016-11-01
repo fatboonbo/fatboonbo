@@ -1677,3 +1677,7 @@ td#CentralArea div.v4stabl a {
 td#CentralArea div.v4stabl a:hover {
     border-color:#685043;
 }
+table.tb_v4bc {
+    width: 100%!important;
+    max-width: 100%!important;
+}
