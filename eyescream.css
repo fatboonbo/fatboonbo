@@ -1326,6 +1326,17 @@ table.gallery table.fixed div.time2 {
 	text-align:center;
 	text-transform:lowercase;
 }
+#CentralArea td.gallery table tr td > span.label {
+  border: 1px solid #ccc;
+  display:block;
+  width: 80px;
+  margin: 0 auto;
+  padding: .5em;
+  color: #7A5E4C;
+  background: #F6F5F5;
+  border: 1px solid #EDEDED;
+  border-radius: 8px;
+}
 #CentralArea table.gallery table.fixed
 {
 	margin-top: 5px;
