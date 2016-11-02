@@ -1040,6 +1040,8 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
 #promotion-category img {
   transition:.4s;
 }
+#promotion-category { transition: all .2s ease-in-out; }
+#promotion-category img:hover { transform: scale(1.1); }
 #promotion-category > div a:hover img {
   opacity:.8;
 }
