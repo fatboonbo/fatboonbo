@@ -1041,9 +1041,9 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
   transition:.4s;
 }
 #promotion-category { transition: all .2s ease-in-out; }
-#promotion-category img:hover {transform: scale(1.1);/* transform: matrix(1, 0, 0, 1, 0, 0); */}
+#promotion-category img:hover { transform: scale(1.1); }
 #promotion-category > div a:hover img {
-  /* opacity:.8; */
+  opacity:.8;
 }
 /* Shine */
 
@@ -1071,8 +1071,8 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
 #promotion-category > div a:hover:before {
   -webkit-animation: shine .95s;
   animation: shine .95s;
-  -webkit-animation-delay: .5s; /* Safari 4.0 - 8.0 */
-  animation-delay: .5s;
+  -webkit-animation-delay: .4s; /* Safari 4.0 - 8.0 */
+  animation-delay: .4s;
 }
 
 @-webkit-keyframes shine {
